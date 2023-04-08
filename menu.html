@@ -1,0 +1,26 @@
+<html>
+ <head>
+ <title>Menu</title>
+ <script language="JavaScript">
+ function WinOpen(x) 
+ {
+if( x == 1 )
+window.open("obraz1.html","okienko1","toolbar=no,directories=no,menubar=no,height=280,width=160,top=450,left=350");
+if( x == 2 )
+window.open("obraz2.html","okienko2","toolbar=no,directories=no,menubar=no,height=280,width=160,top=450,left=550");
+if( x == 3 )
+window.open("obraz3.html","okienko3","toolbar=no,directories=no,menubar=no,height=280,width=160,top=450,left=750");
+if( x == 4 )
+window.open("obraz4.html","okienko4","toolbar=no,directories=no,menubar=no,height=280,width=160,top=450,left=950");
+ }
+ </script>
+ </head>
+<body>
+ <form>
+ <input type="button" name="grafika1" value="grafika1" onclick="WinOpen(1)">
+<input type="button" name="grafika2" value="grafika2" onclick="WinOpen(2)">
+<input type="button" name="grafika3" value="grafika3" onclick="WinOpen(3)">
+<input type="button" name="grafika4" value="grafika4" onclick="WinOpen(4)">
+ </form>
+</body>
+</html>
